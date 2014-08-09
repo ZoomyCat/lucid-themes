@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Solarized
+Comment=A modern flat theme with a Solarized twist
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Solarized
+MetacityTheme=Skittles-Solarized
+IconTheme=skittles-brown
+ButtonLayout=:minimize,maximize,close

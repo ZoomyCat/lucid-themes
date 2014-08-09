@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Purple-Tal
+Comment=Ubuntu Ambiance theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Purple-Tal
+MetacityTheme=Skittles-Purple-Tal
+IconTheme=skittles-purple
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:

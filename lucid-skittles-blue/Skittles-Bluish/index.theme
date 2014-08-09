@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Bluish
+Comment=Dark Blue Theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Bluish
+MetacityTheme=Skittles-Bluish
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

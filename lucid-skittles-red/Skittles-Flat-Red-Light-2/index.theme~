@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Flattice-Red
+Comment=Flattice made red
+Encoding=UTF-8
+
+Name[en_US]=flattice
+
+[X-GNOME-Metatheme]
+GtkTheme=Flattice-Red
+MetacityTheme=Flattice-Red
+IconTheme=Numix-Square
+CursorTheme=DMZ-Black
+ButtonLayout=:minimize,maximize,close

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Tan
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Tan
+MetacityTheme=Skittles-Tan
+IconTheme=skittles-brown
+ButtonLayout=:minimize,maximize,close

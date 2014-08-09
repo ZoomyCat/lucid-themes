@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Purple-Light
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Purple-Light
+MetacityTheme=Skittles-Purple-Light
+IconTheme=skittles-purple
+ButtonLayout=:minimize,maximize,close

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Green
+Comment=Slick and simple dark theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Green
+MetacityTheme=Skittles-Green
+IconTheme=skittles-green
+CursorTheme=Shere_Khan_X
+ButtonLayout=:minimize,maximize,close

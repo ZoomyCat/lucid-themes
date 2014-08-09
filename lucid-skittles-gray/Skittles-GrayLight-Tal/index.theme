@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-GrayLight-Tal
+Comment=Ubuntu Ambiance theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-GrayLight-Tal
+MetacityTheme=Skittles-GrayLight-Tal
+IconTheme=skittles-gray
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:

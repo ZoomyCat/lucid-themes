@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Cinnamon-GNOME-Metatheme
+Name=Skittles-Blue-Baby
+Comment=A Linux Mint Cinnamon and GTK theme, based on Clearlooks Revamp, Elementary, CrunchyGreen and Faenza. Corner-ripple by Franc Gorenc. Graphics by hexdef101. Inspiration by calibriz.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Blue-Baby
+MetacityTheme=Skittles-Blue-Baby
+IconTheme=skittles-blue
+CursorTheme=default

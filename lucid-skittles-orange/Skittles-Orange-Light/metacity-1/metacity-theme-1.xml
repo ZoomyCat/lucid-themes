@@ -1,0 +1,441 @@
+<?xml version="1.0"?>
+<metacity_theme>
+
+	<info>
+		<name>Skittles-Orange-Light</name>
+		<author>drakfire</author>
+		<date>Dec 2013</date>
+		<copyright>GPL</copyright>
+	</info>
+
+
+	<!-- Frame geometry: normal -->
+	<frame_geometry name="normal" has_title="true"
+                        rounded_top_left="true" rounded_top_right="true"
+			rounded_bottom_left="false" rounded_bottom_right="false">
+		<distance name="left_width" value="1"/>
+		<distance name="right_width" value="1"/>
+		<distance name="bottom_height" value="1"/>
+		<distance name="left_titlebar_edge" value="0"/>
+		<distance name="right_titlebar_edge" value="0"/>
+		<distance name="title_vertical_pad" value="0"/>
+		<distance name="button_width" value="26"/>
+		<distance name="button_height" value="26"/>
+		<border name="title_border" left="14" right="14" top="0" bottom="4"/>
+		<border name="button_border" left="10" right="10" top="2" bottom="4"/>
+	</frame_geometry>
+
+
+        <constant name="BS" value="3"/>
+        <constant name="Buttontbr" value="9"/>
+        <constant name="Buttonlbr" value="9"/>
+
+
+	<!-- Window background normal -->
+	<draw_ops name="window">
+          <rectangle color="#353535" filled="true" x="0" y="0" width="width" height="height"/>	  
+          <rectangle color="#353535" filled="true" x="1" y="32" width="width-2" height="height-33"/>
+          <rectangle color="#353535" filled="true" x="5" y="28" width="width-10" height="4"/>
+          <arc color="#353535" x="1" y="28" width="8" height="8"  start_angle="270" extent_angle="90" filled="true" />
+          <arc color="#353535" x="width-10" y="28" width="8" height="8"  start_angle="0" extent_angle="90" filled="true" />
+       </draw_ops>
+
+	<!-- Window background inactive -->
+	<draw_ops name="window_inactive">
+          <rectangle color="#353535" filled="true" x="0" y="0" width="width" height="height"/>	  
+          <rectangle color="#353535" filled="true" x="1" y="32" width="width-2" height="height-33"/>
+          <rectangle color="#353535" filled="true" x="5" y="28" width="width-10" height="4"/>
+          <arc color="#353535" x="1" y="28" width="8" height="8"  start_angle="270" extent_angle="90" filled="true" />
+          <arc color="#353535" x="width-10" y="28" width="8" height="8"  start_angle="0" extent_angle="90" filled="true" />
+       </draw_ops>
+
+
+	<!-- Buttons_active_normal_window -->
+	<!-- CLOSE -->
+	<draw_ops name="close_active_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+
+          <rectangle color="#cccccc" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="close_active_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+
+          <rectangle color="#ffffff" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="close_active_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+	<!-- MAXIMIZE -->
+	<draw_ops name="maximize_active_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+1" width="BS" height="2*BS"/>
+
+          <rectangle color="#cccccc" filled="true" x="Buttontbr" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="2*BS"/>
+        </draw_ops>
+
+	<draw_ops name="maximize_active_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+1" width="BS" height="2*BS"/>
+
+          <rectangle color="#ffffff" filled="true" x="Buttontbr" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_active_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+	<!-- MINIMIZE -->
+	<draw_ops name="minimize_active_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+
+          <rectangle color="#cccccc" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_active_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="2*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS+1" width="BS" height="2*BS"/>
+
+          <rectangle color="#ffffff" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_active_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+	<!-- MENU -->
+	<draw_ops name="menu_active_normal">
+          <arc color="#495353" x="Buttonlbr" y="Buttontbr" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+          <arc color="#cccccc"           x="Buttonlbr" y="Buttontbr-1" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+  	</draw_ops>
+
+	<draw_ops name="menu_active_prelight">
+          <arc color="#495353" x="Buttonlbr" y="Buttontbr" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+          <arc color="#ffffff"           x="Buttonlbr" y="Buttontbr-1" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+	</draw_ops>
+
+	<draw_ops name="menu_active_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+	<!-- Buttons_inactive_normal_window -->
+	<!-- CLOSE -->
+	<draw_ops name="close_inactive_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+BS-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+
+          <rectangle color="#282b2b" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="close_inactive_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+BS-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="close_inactive_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="3*BS+2" height="3*BS+2"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+	<!-- MAXIMIZE -->
+	<draw_ops name="maximize_inactive_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+
+          <rectangle color="#282b2b" filled="true" x="Buttontbr" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_inactive_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="maximize_inactive_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="3*BS+2" height="3*BS+2"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/> 
+	</draw_ops>
+
+	<!-- MINIMIZE -->
+	<draw_ops name="minimize_inactive_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+
+          <rectangle color="#282b2b" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_inactive_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="2*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+BS-1" width="BS+2" height="2*BS+2"/>
+
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="2*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr+BS" y="Buttonlbr+BS" width="BS" height="2*BS"/>
+	</draw_ops>
+
+	<draw_ops name="minimize_inactive_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="3*BS+2" height="3*BS+2"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/> 
+	</draw_ops>
+
+	<!-- MENU -->
+	<draw_ops name="menu_inactive_normal">
+          <arc color="#495353" x="Buttonlbr-1" y="Buttontbr-1" width="3*BS+2" height="3*BS+2"  start_angle="0" extent_angle="360" filled="true" />
+          <arc color="#282b2b"  x="Buttonlbr" y="Buttontbr" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+  	</draw_ops>
+
+	<draw_ops name="menu_inactive_prelight">
+          <arc color="#495353"                  x="Buttonlbr" y="Buttontbr" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+          <arc color="blend/#282b2b/#353535000/0.5" x="Buttonlbr" y="Buttontbr-1" width="3*BS" height="3*BS"  start_angle="0" extent_angle="360" filled="true" />
+	</draw_ops>
+
+	<draw_ops name="menu_inactive_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.5" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+
+        <!-- Buttons_active_maximized_window -->
+	<draw_ops name="restore_active_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="3*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="3*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+
+          <rectangle color="#cccccc" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#cccccc" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="restore_active_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="BS" height="3*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS" y="Buttonlbr+1" width="BS" height="3*BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+1" width="BS" height="BS"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS+1" width="BS" height="BS"/>
+
+          <rectangle color="#ffffff" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#ffffff" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="restore_active_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr" y="Buttonlbr+1" width="3*BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/>
+	</draw_ops>
+
+
+        <!-- Buttons_inactive_maximized_window -->
+	<draw_ops name="restore_inactive_normal">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="3*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="3*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+
+          <rectangle color="#282b2b" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="#282b2b" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+        </draw_ops>
+
+
+	<draw_ops name="restore_inactive_prelight">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="BS+2" height="3*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+2*BS-1" y="Buttonlbr-1" width="BS+2" height="3*BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr-1" width="BS+2" height="BS+2"/>
+          <rectangle color="#495353" filled="true" x="Buttontbr+BS-1" y="Buttonlbr+2*BS-1" width="BS+2" height="BS+2"/>
+
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr+2*BS" y="Buttonlbr" width="BS" height="3*BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr+BS" y="Buttonlbr" width="BS" height="BS"/>
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr+BS" y="Buttonlbr+2*BS" width="BS" height="BS"/>
+	</draw_ops>
+
+	<draw_ops name="restore_inactive_pressed">
+          <rectangle color="#495353" filled="true" x="Buttontbr-1" y="Buttonlbr-1" width="3*BS+2" height="3*BS+2"/>
+          <rectangle color="blend/#282b2b/#353535000/0.4" filled="true" x="Buttontbr" y="Buttonlbr" width="3*BS" height="3*BS"/> 
+	</draw_ops>
+
+
+	<!-- Titles -->
+        <draw_ops name="title_normal">
+                <title color="#cccccc"  x="0" y="(0 `max` (height - title_height) / 2)-1"/>
+        </draw_ops>
+
+        <draw_ops name="title_inactive">
+                <title color="#787878"  x="0" y="(0 `max` (height - title_height) / 2)-1"/>
+        </draw_ops>
+
+
+	<!-- Frame style: normal -->
+	<frame_style name="normal" geometry="normal">
+	        <piece position="entire_background" draw_ops="window"/>
+    		<piece position="title" draw_ops="title_normal"/>
+
+		<button function="close" state="normal" draw_ops="close_active_normal"/>
+		<button function="minimize" state="normal" draw_ops="minimize_active_normal"/>
+		<button function="maximize" state="normal" draw_ops="maximize_active_normal"/>
+		<button function="menu" state="normal" draw_ops="menu_active_normal"/>
+
+		<button function="close" state="pressed" draw_ops="close_active_pressed"/>
+		<button function="minimize" state="pressed" draw_ops="minimize_active_pressed"/>
+		<button function="maximize" state="pressed" draw_ops="maximize_active_pressed"/>
+		<button function="menu" state="pressed" draw_ops="menu_active_pressed"/>
+
+		<button function="close" state="prelight" draw_ops="close_active_prelight"/>
+		<button function="minimize" state="prelight" draw_ops="minimize_active_prelight"/>
+		<button function="maximize" state="prelight" draw_ops="maximize_active_prelight"/>
+		<button function="menu" state="prelight" draw_ops="menu_active_prelight"/>
+	</frame_style>
+
+
+	<!-- Frame style: inactive -->
+	<frame_style name="inactive" geometry="normal">
+                <piece position="entire_background" draw_ops="window_inactive"/>
+    		<piece position="title" draw_ops="title_inactive"/>
+
+		<button function="close" state="normal" draw_ops="close_inactive_normal"/>
+		<button function="minimize" state="normal" draw_ops="minimize_inactive_normal"/>
+		<button function="maximize" state="normal" draw_ops="maximize_inactive_normal"/>
+		<button function="menu" state="normal" draw_ops="menu_inactive_normal"/>
+
+		<button function="close" state="pressed" draw_ops="close_inactive_pressed"/>
+		<button function="minimize" state="pressed" draw_ops="minimize_inactive_pressed"/>
+		<button function="maximize" state="pressed" draw_ops="maximize_inactive_pressed"/>
+		<button function="menu" state="pressed" draw_ops="menu_inactive_pressed"/>
+
+		<button function="close" state="prelight" draw_ops="close_inactive_prelight"/>
+		<button function="minimize" state="prelight" draw_ops="minimize_inactive_prelight"/>
+		<button function="maximize" state="prelight" draw_ops="maximize_inactive_prelight"/>
+		<button function="menu" state="prelight" draw_ops="menu_inactive_prelight"/>
+	</frame_style>
+
+	<!-- Frame style: maximized -->
+	<frame_style name="maximized" geometry="normal">
+                <piece position="entire_background" draw_ops="window"/>
+    		<piece position="title" draw_ops="title_normal"/>
+
+		<button function="close" state="normal" draw_ops="close_active_normal"/>
+		<button function="minimize" state="normal" draw_ops="minimize_active_normal"/>
+		<button function="maximize" state="normal" draw_ops="restore_active_normal"/>
+		<button function="menu" state="normal" draw_ops="menu_active_normal"/>
+
+		<button function="close" state="pressed" draw_ops="close_active_pressed"/>
+		<button function="minimize" state="pressed" draw_ops="minimize_active_pressed"/>
+		<button function="maximize" state="pressed" draw_ops="restore_active_pressed"/>
+		<button function="menu" state="pressed" draw_ops="menu_active_pressed"/>
+
+		<button function="close" state="prelight" draw_ops="close_active_prelight"/>
+		<button function="minimize" state="prelight" draw_ops="minimize_active_prelight"/>
+		<button function="maximize" state="prelight" draw_ops="restore_active_prelight"/>
+		<button function="menu" state="prelight" draw_ops="menu_active_prelight"/>
+	</frame_style>
+
+	<!-- Frame style: maximized inactive -->
+	<frame_style name="maximized_inactive" geometry="normal">
+                <piece position="entire_background" draw_ops="window_inactive"/>
+    		<piece position="title" draw_ops="title_inactive"/>
+
+		<button function="close" state="normal" draw_ops="close_inactive_normal"/>
+		<button function="minimize" state="normal" draw_ops="minimize_inactive_normal"/>
+		<button function="maximize" state="normal" draw_ops="restore_inactive_normal"/>
+		<button function="menu" state="normal" draw_ops="menu_inactive_normal"/>
+
+		<button function="close" state="pressed" draw_ops="close_inactive_pressed"/>
+		<button function="minimize" state="pressed" draw_ops="minimize_inactive_pressed"/>
+		<button function="maximize" state="pressed" draw_ops="restore_inactive_pressed"/>
+		<button function="menu" state="pressed" draw_ops="menu_inactive_pressed"/>
+
+		<button function="close" state="prelight" draw_ops="close_inactive_prelight"/>
+		<button function="minimize" state="prelight" draw_ops="minimize_inactive_prelight"/>
+		<button function="maximize" state="prelight" draw_ops="restore_inactive_prelight"/>
+		<button function="menu" state="prelight" draw_ops="menu_inactive_prelight"/>
+	</frame_style>
+
+	<!-- Frame style set: normal -->
+	<frame_style_set name="normal">
+		<frame focus="no" state="normal" resize="both" style="inactive"/>
+		<frame focus="no" state="maximized" style="maximized_inactive"/>
+		<frame focus="no" state="shaded" style="inactive"/>
+		<frame focus="no" state="maximized_and_shaded" style="maximized_inactive"/>
+
+		<frame focus="yes" state="normal" resize="both" style="normal"/>
+		<frame focus="yes" state="maximized" style="maximized"/>
+		<frame focus="yes" state="shaded" style="normal"/>
+		<frame focus="yes" state="maximized_and_shaded" style="maximized"/>
+	</frame_style_set>
+
+
+
+	<!-- the end -->
+	<window type="normal" style_set="normal"/>
+	<window type="dialog" style_set="normal"/>
+	<window type="modal_dialog" style_set="normal"/>
+	<window type="menu" style_set="normal"/>
+	<window type="utility" style_set="normal"/>
+	<window type="border" style_set="normal"/>
+
+</metacity_theme>

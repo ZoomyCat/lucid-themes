@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Flat-Turquoise
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Flat-Turquoise
+MetacityTheme=Skittles-Flat-Turquoise
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

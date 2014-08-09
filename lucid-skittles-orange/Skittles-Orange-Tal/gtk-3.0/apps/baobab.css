@@ -1,0 +1,43 @@
+
+BaobabWindow GtkGrid {
+    background-color: @bg_color;
+    background-image: -gtk-gradient (linear,
+                                    0 0, 0 1,
+                                    color-stop(0, #000000),
+												color-stop(0.2, #000000),                                    
+                                    color-stop(0.5, #772B00),
+                                    color-stop(0.8, #000000),
+                                    color-stop(0.9, #000000),
+				    							color-stop(1, #772B00)
+				    							);
+}
+
+BaobabLocationList GtkGrid {
+    background-color: transparent;
+}
+
+.baobab-toolbar.toolbar {
+    border-color: shade (@bg_color, 0.9);
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    background-image: -gtk-gradient (linear,
+                                    0 0, 0 1,
+                                    color-stop(0, #000000),
+												color-stop(0.2, #000000),                                    
+                                    color-stop(0.5, #772B00),
+                                    color-stop(0.8, #000000),
+                                    color-stop(0.9, #000000),
+				    							color-stop(1, #772B00)
+				    							);
+}
+
+.cell.baobab-level-cell,
+.cell.baobab-level-cell:hover,
+.cell.baobab-level-cell:selected,
+.cell.baobab-level-cell:selected:hover {
+    border-color: alpha (#FF5600, 0.06);
+    border-width: 1px;
+    border-style: solid;
+    background-color: @base_color;
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Blue-Frost-Light
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Blue-Frost-Light
+MetacityTheme=skittles-blue
+ButtonLayout=:minimize,maximize,close

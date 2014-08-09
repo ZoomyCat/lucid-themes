@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="208"
+   height="208"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="corner-ripple.svg"
+   inkscape:export-filename="/home/matthieu/.themes/ICS/gnome-shell/img/corner-ripple-ltr.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3761">
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.39215687;"
+         offset="0"
+         id="stop3763" />
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3765" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3761"
+       id="radialGradient3767"
+       cx="0"
+       cy="4"
+       fx="0"
+       fy="4"
+       r="48"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3785">
+      <path
+         style="opacity:0.1;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -52.000002,-48.00003 0,104 104,0 0,-104 -104,0 z m 52.00000024,4 c 26.50966776,0 47.99999976,21.490332 47.99999976,48 0,26.509668 -21.490332,48 -47.99999976,48 -26.50966824,0 -48.00000024,-21.490332 -48.00000024,-48 0,-26.509668 21.490332,-48 48.00000024,-48 z"
+         id="path3787"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3789"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4"
+         id="feGaussianBlur3791" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3761-0"
+       id="radialGradient3767-7"
+       cx="0"
+       cy="4"
+       fx="0"
+       fy="4"
+       r="48"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-0">
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.39215687;"
+         offset="0"
+         id="stop3763-4" />
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3765-4" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3785-4">
+      <path
+         style="opacity:0.1;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -52.000002,-48.00003 0,104 104,0 0,-104 -104,0 z m 52.00000024,4 c 26.50966776,0 47.99999976,21.490332 47.99999976,48 0,26.509668 -21.490332,48 -47.99999976,48 -26.50966824,0 -48.00000024,-21.490332 -48.00000024,-48 0,-26.509668 21.490332,-48 48.00000024,-48 z"
+         id="path3787-1"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3789-8"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4"
+         id="feGaussianBlur3791-9" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3761-4"
+       id="radialGradient3767-74"
+       cx="0"
+       cy="4"
+       fx="0"
+       fy="4"
+       r="48"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-4">
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.39215687;"
+         offset="0"
+         id="stop3763-9" />
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3765-2" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3785-7">
+      <path
+         style="opacity:0.1;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -52.000002,-48.00003 0,104 104,0 0,-104 -104,0 z m 52.00000024,4 c 26.50966776,0 47.99999976,21.490332 47.99999976,48 0,26.509668 -21.490332,48 -47.99999976,48 -26.50966824,0 -48.00000024,-21.490332 -48.00000024,-48 0,-26.509668 21.490332,-48 48.00000024,-48 z"
+         id="path3787-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3789-86"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4"
+         id="feGaussianBlur3791-6" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3761-4-1"
+       id="radialGradient3767-74-0"
+       cx="0"
+       cy="4"
+       fx="0"
+       fy="4"
+       r="48"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-4-1">
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.39215687;"
+         offset="0"
+         id="stop3763-9-4" />
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3765-2-9" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3785-7-2">
+      <path
+         style="opacity:0.1;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -52.000002,-48.00003 0,104 104,0 0,-104 -104,0 z m 52.00000024,4 c 26.50966776,0 47.99999976,21.490332 47.99999976,48 0,26.509668 -21.490332,48 -47.99999976,48 -26.50966824,0 -48.00000024,-21.490332 -48.00000024,-48 0,-26.509668 21.490332,-48 48.00000024,-48 z"
+         id="path3787-6-8"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3789-86-5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4"
+         id="feGaussianBlur3791-6-6" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3785-7-2-5">
+      <path
+         style="opacity:0.1;color:#000000;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m -52.000002,-48.00003 0,104 104,0 0,-104 -104,0 z m 52.00000024,4 c 26.50966776,0 47.99999976,21.490332 47.99999976,48 0,26.509668 -21.490332,48 -47.99999976,48 -26.50966824,0 -48.00000024,-21.490332 -48.00000024,-48 0,-26.509668 21.490332,-48 48.00000024,-48 z"
+         id="path3787-6-8-1"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       inkscape:collect="always"
+       id="filter3789-86-5-3"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4"
+         id="feGaussianBlur3791-6-6-4" />
+    </filter>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3761-4-1-8"
+       id="radialGradient3767-74-0-8"
+       cx="0"
+       cy="4"
+       fx="0"
+       fy="4"
+       r="48"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="linearGradient3761-4-1-8">
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.39215687;"
+         offset="0"
+         id="stop3763-9-4-3" />
+      <stop
+         style="stop-color:#33b5e5;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3765-2-9-0" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#505050"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.7339524"
+     inkscape:cx="98.021417"
+     inkscape:cy="96.281985"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="971"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3755"
+       empspacing="8"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="104px"
+       originy="-8.5265128e-14px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(104,-844.3622)">
+    <path
+       transform="translate(52.000002,996.36223)"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       sodipodi:ry="48"
+       sodipodi:rx="48"
+       sodipodi:cy="4"
+       sodipodi:cx="0"
+       id="path3783"
+       style="opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3789);enable-background:accumulate"
+       sodipodi:type="arc"
+       clip-path="url(#clipPath3785)" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:url(#radialGradient3767);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3759"
+       sodipodi:cx="0"
+       sodipodi:cy="4"
+       sodipodi:rx="48"
+       sodipodi:ry="48"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       transform="translate(52,996.3622)" />
+    <path
+       style="opacity:0.1;color:#000000;fill:#33b5e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 52,952.3622 c -26.509668,0 -48,21.49033 -48,48 0,26.5097 21.490332,48 48,48 26.509668,0 48,-21.4903 48,-48 0,-26.50967 -21.490332,-48 -48,-48 z m 0,1 c 25.957383,0 47,21.04262 47,47 0,25.9574 -21.042617,47 -47,47 -25.957383,0 -47,-21.0426 -47,-47 0,-25.95738 21.042617,-47 47,-47 z"
+       id="path3769"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3793"
+       width="52"
+       height="52"
+       x="26"
+       y="974.36218"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-ltr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="974.36218"
+       x="26"
+       height="52"
+       width="52"
+       id="rect3795"
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-rtl.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-51.999998,996.36223)"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       sodipodi:ry="48"
+       sodipodi:rx="48"
+       sodipodi:cy="4"
+       sodipodi:cx="0"
+       id="path3783-8"
+       style="opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3789-86);enable-background:accumulate"
+       sodipodi:type="arc"
+       clip-path="url(#clipPath3785-7)" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:url(#radialGradient3767-74);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3759-3"
+       sodipodi:cx="0"
+       sodipodi:cy="4"
+       sodipodi:rx="48"
+       sodipodi:ry="48"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       transform="translate(-52,996.36223)" />
+    <path
+       style="opacity:0.1;color:#000000;fill:#33b5e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -52,952.36223 c -26.50967,0 -48,21.4904 -48,47.99997 0,26.5097 21.49033,48 48,48 26.509668,0 48,-21.4903 48,-48 0,-26.50957 -21.490332,-47.99997 -48,-47.99997 z m 0,1 c 25.957383,0 47,21.0426 47,46.99997 0,25.9574 -21.042617,47 -47,47 -25.95738,0 -47,-21.0426 -47,-47 0,-25.95737 21.04262,-46.99997 47,-46.99997 z"
+       id="path3769-5"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3793-6"
+       width="52"
+       height="52"
+       x="-78"
+       y="974.36218"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-ltr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="974.36218"
+       x="-78"
+       height="52"
+       width="52"
+       id="rect3795-1"
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-rtl.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-51.999998,892.36223)"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       sodipodi:ry="48"
+       sodipodi:rx="48"
+       sodipodi:cy="4"
+       sodipodi:cx="0"
+       id="path3783-8-2"
+       style="opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3789-86-5);enable-background:accumulate"
+       sodipodi:type="arc"
+       clip-path="url(#clipPath3785-7-2)" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:url(#radialGradient3767-74-0);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3759-3-5"
+       sodipodi:cx="0"
+       sodipodi:cy="4"
+       sodipodi:rx="48"
+       sodipodi:ry="48"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       transform="translate(-52,892.36223)" />
+    <path
+       style="opacity:0.1;color:#000000;fill:#33b5e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m -52,848.36226 c -26.50967,0 -48,21.4904 -48,47.99994 0,26.5097 21.49033,48 48,48 26.509668,0 48,-21.4903 48,-48 0,-26.50954 -21.490332,-47.99994 -48,-47.99994 z m 0,1 c 25.957383,0 47,21.0426 47,46.99994 0,25.9574 -21.042617,47 -47,47 -25.95738,0 -47,-21.0426 -47,-47 0,-25.95734 21.04262,-46.99994 47,-46.99994 z"
+       id="path3769-5-5"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3793-6-9"
+       width="52"
+       height="52"
+       x="-78"
+       y="870.36218"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-ltr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="870.36218"
+       x="-78"
+       height="52"
+       width="52"
+       id="rect3795-1-1"
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-rtl.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(52.000002,892.36223)"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       sodipodi:ry="48"
+       sodipodi:rx="48"
+       sodipodi:cy="4"
+       sodipodi:cx="0"
+       id="path3783-8-2-7"
+       style="opacity:0.2;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;filter:url(#filter3789-86-5-3);enable-background:accumulate"
+       sodipodi:type="arc"
+       clip-path="url(#clipPath3785-7-2-5)" />
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:url(#radialGradient3767-74-0-8);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3759-3-5-9"
+       sodipodi:cx="0"
+       sodipodi:cy="4"
+       sodipodi:rx="48"
+       sodipodi:ry="48"
+       d="M 48,4 C 48,30.509668 26.509668,52 0,52 -26.509668,52 -48,30.509668 -48,4 c 0,-26.509668 21.490332,-48 48,-48 26.509668,0 48,21.490332 48,48 z"
+       transform="translate(52,892.36223)" />
+    <path
+       style="opacity:0.1;color:#000000;fill:#33b5e5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 52,848.36233 c -26.50967,0 -48,21.4904 -48,47.9999 0,26.5097 21.49033,48 48,48 26.509668,0 48,-21.4903 48,-48 0,-26.5095 -21.490332,-47.9999 -48,-47.9999 z m 0,1 c 25.957383,0 47,21.0426 47,46.9999 0,25.9574 -21.042617,47 -47,47 -25.95738,0 -47,-21.0426 -47,-47 0,-25.9573 21.04262,-46.9999 47,-46.9999 z"
+       id="path3769-5-5-0"
+       inkscape:connector-curvature="0" />
+    <rect
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect3793-6-9-5"
+       width="52"
+       height="52"
+       x="26"
+       y="870.36218"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-ltr.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="870.36218"
+       x="26"
+       height="52"
+       width="52"
+       id="rect3795-1-1-7"
+       style="opacity:0;color:#000000;fill:none;stroke:none;stroke-width:1.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:export-filename="/home/matthieu/.themes/MyDwaita/gnome-shell/corner-ripple-rtl.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+</svg>

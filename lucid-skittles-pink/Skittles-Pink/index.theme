@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Pink
+Comment=A modern pink flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Pink
+MetacityTheme=Skittles-Pink
+IconTheme=skittles-pink
+ButtonLayout=:minimize,maximize,close

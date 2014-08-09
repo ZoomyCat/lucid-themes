@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Flat-Blue-Light-2
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Flat-Blue-Light-2
+MetacityTheme=Skittles-Flat-Blue-Light-2
+ButtonLayout=:minimize,maximize,close
+IconTheme=gnome

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Flat-Red-Light-2
+Comment=Skittles-Flat-Red-Light-2
+Encoding=UTF-8
+
+Name[en_US]=Skittles-Flat-Red-Light-2
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Flat-Red-Light-2
+MetacityTheme=Skittles-Flat-Red-Light-2
+IconTheme=skittles-red
+CursorTheme=DMZ-Black
+ButtonLayout=:minimize,maximize,close

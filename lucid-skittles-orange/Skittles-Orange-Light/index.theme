@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Orange-Light
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Orange-Light
+MetacityTheme=Skittles-Orange-Light
+IconTheme=skittles-orange
+ButtonLayout=:close

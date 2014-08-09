@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Green-Light
+Comment=A modern flat theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Green-Light
+MetacityTheme=Skittles-Green-Light
+IconTheme=skittles-green
+ButtonLayout=:minimize,maximize,close

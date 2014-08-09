@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Red-Dkr
+Comment=Clean desktop theme
+Encoding=UTF-8
+Name[en_US]=Cenozoic
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Red-Dkr
+MetacityTheme=Skittles-Red-Dkr
+CursorTheme=DMZ-Black
+ButtonLayout=:close

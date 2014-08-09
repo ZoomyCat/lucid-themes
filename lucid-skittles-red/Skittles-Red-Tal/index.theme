@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skittles-Red-Tal
+Comment=Ubuntu Ambiance theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Skittles-Red-Tal
+MetacityTheme=Skittles-Red-Tal
+IconTheme=skittles-red
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:
