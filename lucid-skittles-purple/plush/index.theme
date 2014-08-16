@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=plush
+Type=X-GNOME-Metatheme
+Comment=Dark Purple and Blue Theme
+Encoding=UTF-8
+GtkTheme=plush
+MetacityTheme=plush
+IconTheme=Faenza
+CursorTheme=Shere_Khan_X
+CursorSize=24
